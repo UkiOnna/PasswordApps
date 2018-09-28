@@ -1,0 +1,22 @@
+﻿<Window x:Class="PaswordApps.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PaswordApps"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="280" Width="525">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="39,21,0,0" TextWrapping="Wrap" Text="Choose Application:" VerticalAlignment="Top"/>
+        <TextBox Name="wayProgramm" IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="39,42,0,0" TextWrapping="Wrap" Text="Choose app.." VerticalAlignment="Top" Width="326"/>
+        <Button Content="Open.." HorizontalAlignment="Left" Margin="384,42,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="OpenFile"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,101,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top"/>
+        <PasswordBox Name="password" HorizontalAlignment="Left" Margin="39,122,0,0" VerticalAlignment="Top" Width="253"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,145,0,0" TextWrapping="Wrap" Text="RepeatPassword:" VerticalAlignment="Top"/>
+        <PasswordBox Name="passwordRepeat" HorizontalAlignment="Left" Margin="39,166,0,0" VerticalAlignment="Top" Width="253"/>
+        <Button Content="Protect" HorizontalAlignment="Left" Margin="217,210,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="UnProtect" HorizontalAlignment="Left" Margin="39,210,0,0" VerticalAlignment="Top" Width="75"/>
+        <Image Source="Image/key.png" HorizontalAlignment="Left" Height="156" Margin="338,83,0,0" VerticalAlignment="Top" Width="159"/>
+
+    </Grid>
+</Window>
